@@ -12,6 +12,7 @@ h1 {
   font-family: "Square Peg", cursive;
   color: #393e46;
   line-height: 2;
+  text-align: center;
 }
 h2 {
   font-family: "ABeeZee", sans-serif;
@@ -51,20 +52,25 @@ p {
 }
 
 .top-cloud {
-  position: relative;
-  left: 400px;
-  top: 100px;
-}
-.bottom-cloud {
-  position: relative;
-  left: 350px;
-  bottom: 400px;
+  position: absolute;
+  max-height:15%;
+  max-width: 15%;
+  right: 33%;
+  top: 20%;
 }
 
+.bottom-cloud{
+    position: absolute;
+    left: 33%;
+    bottom: 50%;
+    max-height:15%;
+    max-width: 15%;
+}
 .mountain {
   position: relative;
   top: 0.25rem;
-  height: 400px;
+  max-height:20%;
+  max-width: 50%;
 }
 .underlined {
   text-decoration: underline;
