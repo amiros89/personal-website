@@ -196,25 +196,26 @@ hr {
 
 @media screen and (max-width: 900px) {
   .agile {
-    width: 75%;
+    width: 40%;
     text-align: center;
     /* align-content: center; */
     margin: 0;
     float:none;
   }
   .coder {
-    width: 75%;
+    width: 40%;
     margin: 0;
     float:none;
   }
   .search {
-    width: 75%;
+    width: 40%;
     margin: 0;
     float:none;
 
   }
   .skill-row {
     text-align:center;
+    width:80%;
   }
   h1{
     width:60%;
